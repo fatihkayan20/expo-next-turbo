@@ -8,6 +8,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
+    "lint": "npx eslint . --ext .js,.jsx,.ts,.tsx",
     "dev": "yarn start"
   },
   "dependencies": {

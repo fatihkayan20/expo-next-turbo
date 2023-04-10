@@ -6,12 +6,7 @@ export default function Page(): React.ReactNode {
   return (
     <View style={styles.container}>
       <Text style={styles.header}>Native</Text>
-      <Button
-        onClick={() => {
-          console.log("Pressed!");
-        }}
-        text="Boop"
-      />
+      <Button text="Boop" />
       <StatusBar style="auto" />
     </View>
   );
